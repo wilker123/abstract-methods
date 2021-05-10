@@ -10,7 +10,7 @@ namespace Abstracts_class.Entities
     {
         public double HealthExpenditures { get; set; }
 
-        public NaturalPerson(double healthExpenditures, string name, double incomeAnual)
+        public NaturalPerson(string name, double incomeAnual, double healthExpenditures)
             : base(name, incomeAnual)
         {
             HealthExpenditures = healthExpenditures;
@@ -18,16 +18,14 @@ namespace Abstracts_class.Entities
 
         public override double TaxesPaid()
         {
-            double tax = 0.0;
-            if (IncomeAnual < 20000.00)
+            if (IncomeAnual < 20000.0)
             {
-                tax = (IncomeAnual * 0.15) - (HealthExpenditures * 0.5);
+                return IncomeAnual * 0.15 - HealthExpenditures * 0.5;
             }
             else
             {
-                tax = (IncomeAnual * 0.25) - (HealthExpenditures * 0.5);
+                return IncomeAnual * 0.25 - HealthExpenditures * 0.5;
             }
-            return tax;
         }
 
     }

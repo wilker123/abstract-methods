@@ -7,3 +7,6 @@ C:\Users\josew\Projetos_remotos\inheritance-and-polymorphism\Abstracts_class\Abs
 C:\Users\josew\Projetos_remotos\abstract-methods\Abstracts_class\Abstracts_class\bin\Debug\Abstracts_class.exe.config
 C:\Users\josew\Projetos_remotos\abstract-methods\Abstracts_class\Abstracts_class\obj\Debug\Abstracts_class.exe
 C:\Users\josew\Projetos_remotos\abstract-methods\Abstracts_class\Abstracts_class\obj\Debug\Abstracts_class.pdb
+C:\Users\josew\Projetos_remotos\abstract-methods\Abstracts_class\Abstracts_class\bin\Debug\Abstracts_class.exe
+C:\Users\josew\Projetos_remotos\abstract-methods\Abstracts_class\Abstracts_class\bin\Debug\Abstracts_class.pdb
+C:\Users\josew\Projetos_remotos\abstract-methods\Abstracts_class\Abstracts_class\obj\Debug\Abstracts_class.csprojResolveAssemblyReference.cache
