@@ -15,5 +15,20 @@ namespace Abstracts_class.Entities
         {
             NumberEmployees = numberEmployees;
         }
+
+        public override double TaxesPaid()
+        {
+            double tax = 0.0;
+            if (NumberEmployees < 10)
+            {
+                tax = IncomeAnual * 0.16;
+            }
+            else
+            {
+                tax = IncomeAnual * 0.14;
+            }
+            return tax;
+        }
+
     }
 }
